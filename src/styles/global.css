@@ -1,0 +1,45 @@
+html, body {
+    min-height: 100%;
+}
+
+/* LAYOUT */
+
+.layout {
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+}
+
+nav .links {
+    display: inline-block;
+    text-align: right;
+    
+}
+
+nav a {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+    color: #15284C;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-color: #15284C;
+}
+
+p {
+    font-family: 'Lexend';
+    font-size: 18px;
+    line-height: 21px;
+  font-family: 'Lexend', Arial, Helvetica, sans-serif;
+    font-style: normal;
+  color:#15284C;
+}
