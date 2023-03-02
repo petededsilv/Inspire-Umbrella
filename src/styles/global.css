@@ -43,3 +43,20 @@ p {
     font-style: normal;
   color:#15284C;
 }
+
+footer {
+    background-color: #F0F7FF;
+    max-width: 100%;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.footerLinks {
+    max-width:50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color:#15284C;
+    text-align: center;
+}

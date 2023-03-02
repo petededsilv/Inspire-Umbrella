@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Layout from '../components/Layout'
 import * as styles from '../styles/home.module.css'
 import { Link } from 'gatsby'
-import lottie from "lottie-web"
+
 
 
 
@@ -103,9 +103,16 @@ export default function Index() {
             <div className={styles.partner}></div>
             <div className="text-center">
             <Link className={styles.whiteBtn}>Become a partner</Link>
+
+
+
            
             </div>
-            
+            <div className={styles.innerAreaFull}>
+            <h2 className="text-center mt-5 mb-4">Contact us</h2>
+            <p className="text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <Link className={styles.blueBtn} to="/community">Contact Us</Link>
+            </div>            
 
 
             </div>

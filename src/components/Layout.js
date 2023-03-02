@@ -10,7 +10,14 @@ export default function Layout({ children }) {
             { children }
         </div>
     <footer>
-        <p>footer</p>
+    <img src="/inspireSmallLogo.svg" alt="inspire logo" style={{maxWidth: '1200px', margin: '10px'}}/>
+      <div className="footerLinks mt-5">
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+        <p>Fair Housing Policy</p>
+
+      </div>
+        <p className="text-center mt-5 mb-4">Inspire Your Day  © All Rights Reserved</p>
     </footer>
     </div>
   );
